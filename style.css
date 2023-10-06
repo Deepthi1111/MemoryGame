@@ -1,0 +1,58 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  border-radius:30px;
+}
+/* #new-game div {
+  text-align: center;
+} */
+
+button {
+  color: white;
+  background-color: black;
+  border-radius:30px;
+  background-position: center bottom;
+}
+body {
+  background-image: url(Vincent_area_rug.webp);
+  /* background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat; */
+
+}
+.flip {
+  background-image: url(playing_card.jpg);
+  background-size: 120%;
+  background-position: right bottom;
+  box-shadow: 10px 10px;
+  opacity: 0.9;
+  /* object-fit: contain; */
+}
+
+
+.red {
+  background-color: rgba(255, 0, 0, 0.4);
+  box-shadow: 10px 10px;
+}
+.blue {
+  background-color: rgba(0, 0, 255, 0.4);
+  box-shadow: 10px 10px;
+}
+.green {
+  background-color: rgba(0, 255, 0, 0.4);
+  box-shadow: 10px 10px;
+}
+.orange {
+  background-color: rgb(255, 165, 0, 0.4);
+  box-shadow: 10px 10px;
+}
+.purple {
+  background-color: rgb(155, 90, 205, 0.4);
+  box-shadow: 10px 10px;
+}
+
+.disable {
+  pointer-events: none
+}
